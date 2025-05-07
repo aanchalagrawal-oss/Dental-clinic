@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrawal Dental Clinic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    crossorigin="anonymous" />
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav role="navigation" aria-label="Main Navigation">
+    <div class="logo">Agrawal Dental</div>
+    <div class="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">☰</div>
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <div class="hero-content">
+      <h1>Welcome to Agrawal Dental Clinic</h1>
+      <p>Creating Confident Smiles for Over 20 Years</p>
+    </div>
+  </header>
+  
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <div class="about-container">
+      <div class="about-image">
+        <img src="https://www.dentaverse.in/wp-content/uploads/2022/06/prevention-2-500x300.jpg" alt="About Us Image">
+      </div>
+      <div class="about-text">
+        <h3>Our Story</h3>
+        <p>
+          Agrawal Dental Clinic has been providing exceptional dental care in the heart of Jalgaon for over 20 years.
+          Led by the experienced Dr. Jitendra and Dr. Neha Agrawal, our clinic specializes in advanced dental treatments
+          for all ages. We pride ourselves on offering personalized care and innovative solutions to ensure the best
+          outcomes for our patients.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <img src="https://media.istockphoto.com/id/1241455969/photo/friendly-dentist-woman-treating-patient.jpg?s=612x612&w=0&k=20&c=duVCfo1TSB0BoDE85PZ2EjNMqN1LiUhICM3weuyV_lQ=" alt="General Dentistry">
+        <h3>General Dentistry</h3>
+        <p>Comprehensive dental exams, cleanings, and fillings to maintain oral health.</p>
+      </div>
+      <div class="service">
+        <img src="https://media.istockphoto.com/id/1206712036/photo/treatment-and-whitening-of-teeth-dental-crowns-before-and-after-dentistry-close-up.jpg?s=612x612&w=0&k=20&c=dBsS-HPi53g17O8VMbjcytOEU1Jk6KZMnsStVxSVimI=" alt="Cosmetic Dentistry">
+        <h3>Cosmetic Dentistry</h3>
+        <p>Veneers, whitening, and other treatments to enhance the aesthetics of your smile.</p>
+      </div>
+      <div class="service">
+        <img src="https://img.freepik.com/free-photo/dental-procedure-installing-braces-close-up-dentistry-braces-teeth_169016-67279.jpg?semt=ais_hybrid&w=740" alt="Orthodontics">
+        <h3>Orthodontics</h3>
+        <p>Braces and aligners to straighten teeth and improve bite alignment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta" id="contact">
+    <h2>Ready to Smile? Contact Us Today!</h2>
+    <button onclick="window.location.href='mailto:info@agrawaldentalclinic.com'">Book Appointment</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Agrawal Dental Clinic. All rights reserved.</p>
+    <ul>
+      <li><a href="https://facebook.com/AgrawalDental" target="_blank">Facebook</a></li>
+      <li><a href="https://twitter.com/AgrawalDental" target="_blank">Twitter</a></li>
+      <li><a href="https://instagram.com/AgrawalDental" target="_blank">Instagram</a></li>
+    </ul>
+  </footer>
+
+  <!-- Hamburger JS -->
+  <script>
+    function toggleMenu() {
+      document.querySelector('nav').classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>
